@@ -1,0 +1,27 @@
+experiment:
+  name: industrial_robot_ppo
+  seed: 42
+  device: cuda
+
+environment:
+  name: RobotArm-v0
+  max_episode_steps: 1000
+
+training:
+  algorithm: PPO
+  total_timesteps: 1_000_000
+  learning_rate: 3e-4
+  batch_size: 64
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+
+model:
+  policy_type: MlpPolicy
+  hidden_sizes: [256, 256]
+  activation: relu
+
+logging:
+  wandb: true
+  log_interval: 1
+  save_interval: 10

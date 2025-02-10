@@ -1,0 +1,10 @@
+torch>=1.12.0
+mujoco>=2.3.0
+gymnasium>=0.26.0
+numpy>=1.21.0
+wandb>=0.13.0
+pyyaml>=6.0
+pytest>=7.0.0
+black>=22.0.0
+rospkg>=1.4.0; platform_system != "Windows"
+catkin_pkg>=0.5.0; platform_system != "Windows"
