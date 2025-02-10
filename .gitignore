@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build and Distribution
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and Databases
+*.log
+*.sqlite
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+.env.*
+
+# Training artifacts
+wandb/
+checkpoints/

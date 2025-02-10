@@ -8,3 +8,6 @@ pytest>=7.0.0
 black>=22.0.0
 rospkg>=1.4.0; platform_system != "Windows"
 catkin_pkg>=0.5.0; platform_system != "Windows"
+gym>=0.21.0
+rospy>=1.15.0; platform_system == "Linux"
+rclpy>=1.0.0; platform_system == "Linux"
